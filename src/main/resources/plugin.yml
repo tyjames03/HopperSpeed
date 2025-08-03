@@ -1,0 +1,16 @@
+name: HopperSpeed
+version: '1.0-SNAPSHOT'
+main: org.tyjames03.hopperSpeed.HopperSpeed
+api-version: '1.21'
+description: Adjust hopper transfer speed and amount.
+author: tyjames03
+commands:
+  hspeed:
+    description: Reload the HopperSpeed config
+    usage: /hspeed reload
+    permission: hopperspeed.reload
+    permission-message: You do not have permission to use this command.
+permissions:
+  hopperspeed.reload:
+    description: Allows reloading of HopperSpeed config
+    default: op

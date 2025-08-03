@@ -1,0 +1,5 @@
+# How many ticks between each hopper transfer? (Default Minecraft is 8 ticks)
+hopper-transfer-interval-ticks: 8
+
+# How many items are transferred per operation? (Default Minecraft is 1)
+hopper-items-per-transfer: 1
